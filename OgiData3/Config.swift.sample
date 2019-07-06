@@ -1,0 +1,12 @@
+//
+//  Config.swift
+//  OgiData3
+//
+//  Created by ma on 2019/07/06.
+//  Copyright © 2019年 Masahiro Ogino. All rights reserved.
+//
+
+final class Config {
+    static let apiurl : String = "localhost:443/ogidata/api/"
+    static let imgurl : String = "localhost:443/static/img/"
+}

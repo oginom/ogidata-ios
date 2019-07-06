@@ -7,21 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C41D08D201C4F60006D6AD2 /* OgiDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C41D08C201C4F60006D6AD2 /* OgiDataManager.swift */; };
+		0C41D08F201CB510006D6AD2 /* TableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C41D08E201CB510006D6AD2 /* TableCellView.swift */; };
+		0C41D091201CC377006D6AD2 /* OgiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C41D090201CC377006D6AD2 /* OgiTableViewController.swift */; };
+		0C4A1BD6203AE8AC0022C333 /* DataViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A1BD5203AE8AC0022C333 /* DataViewBase.swift */; };
+		0C4A1BD8203AE9A80022C333 /* DateDoubleDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A1BD7203AE9A80022C333 /* DateDoubleDataView.swift */; };
+		0C4A1BDA203AEA540022C333 /* DefaultDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A1BD9203AEA540022C333 /* DefaultDataView.swift */; };
+		0C4A1BDC203FBA850022C333 /* PlotDataViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A1BDB203FBA850022C333 /* PlotDataViewBase.swift */; };
 		0C5613181FFE842E006BA722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5613171FFE842E006BA722 /* AppDelegate.swift */; };
 		0C56131A1FFE842E006BA722 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5613191FFE842E006BA722 /* ViewController.swift */; };
-		0C56131D1FFE842E006BA722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C56131B1FFE842E006BA722 /* Main.storyboard */; };
 		0C56131F1FFE842E006BA722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C56131E1FFE842E006BA722 /* Assets.xcassets */; };
 		0C5613221FFE842E006BA722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5613201FFE842E006BA722 /* LaunchScreen.storyboard */; };
+		0C5B090621173D3300B8602A /* TaggedImageDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5B090521173D3300B8602A /* TaggedImageDataView.swift */; };
+		0C85150D2077B3A900D87243 /* DataViewInsertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85150C2077B3A900D87243 /* DataViewInsertView.swift */; };
+		0C85150F207DD0C600D87243 /* InsertFormBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85150E207DD0C600D87243 /* InsertFormBase.swift */; };
+		0C985C2F206D151800053EE4 /* DataViewMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C985C2E206D151800053EE4 /* DataViewMenuView.swift */; };
+		0C9928FF20A1A0D4007117AB /* TablesMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9928FE20A1A0D4007117AB /* TablesMenuView.swift */; };
+		0C99290120A1BAFC007117AB /* CalendarDataViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C99290020A1BAFC007117AB /* CalendarDataViewBase.swift */; };
+		0CAF19C722D051EA004C9B0A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAF19C622D051EA004C9B0A /* Config.swift */; };
+		0CB7861820B19F3A0051BDCB /* TGDropBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7861720B19F3A0051BDCB /* TGDropBoxView.swift */; };
+		0CB7862A20BC1E0D0051BDCB /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7861D20BC1E0C0051BDCB /* HomeVC.swift */; };
+		0CB7862B20BC1E0D0051BDCB /* StoredImageListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7861E20BC1E0C0051BDCB /* StoredImageListVC.swift */; };
+		0CB7862D20BC1E0D0051BDCB /* FileHandle+Readline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7862120BC1E0C0051BDCB /* FileHandle+Readline.swift */; };
+		0CB7862E20BC1E0D0051BDCB /* UIImage+Trimming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7862220BC1E0C0051BDCB /* UIImage+Trimming.swift */; };
+		0CB7862F20BC1E0D0051BDCB /* ImageFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7862420BC1E0C0051BDCB /* ImageFileManager.swift */; };
+		0CB7863020BC1E0D0051BDCB /* ImageListFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7862520BC1E0C0051BDCB /* ImageListFileManager.swift */; };
+		0CB7863120BC1E0D0051BDCB /* ImageViewCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7862620BC1E0C0051BDCB /* ImageViewCreator.swift */; };
+		0CB7863220BC1E0D0051BDCB /* PhotoLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7862720BC1E0C0051BDCB /* PhotoLibraryManager.swift */; };
+		0CB7863320BC1E0D0051BDCB /* SimpleFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7862820BC1E0C0051BDCB /* SimpleFileManager.swift */; };
+		0CB7863420BC1E0D0051BDCB /* TextFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7862920BC1E0C0051BDCB /* TextFileManager.swift */; };
+		0CB7863620BC400E0051BDCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB7863520BC400E0051BDCB /* Main.storyboard */; };
+		0CB7863820BC49A10051BDCB /* TrimImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7863720BC49A10051BDCB /* TrimImageVC.swift */; };
+		0CB7863A20BC49D10051BDCB /* TrimImageVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB7863920BC49D10051BDCB /* TrimImageVC.storyboard */; };
+		0CCD3489214E7B0000A39A88 /* DataViewInsertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCD3488214E7B0000A39A88 /* DataViewInsertViewController.swift */; };
+		0CCD34B1216F905500A39A88 /* DetailDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCD34B0216F905500A39A88 /* DetailDataViewController.swift */; };
+		0CCD34B521886E8C00A39A88 /* DataViewUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCD34B421886E8C00A39A88 /* DataViewUpdateViewController.swift */; };
+		0CF0B12120A18C29006B01EB /* MenuViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF0B12020A18C29006B01EB /* MenuViewBase.swift */; };
+		EF6142BFBDEA72ABC0409202 /* Pods_OgiData3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53824AD57D01FD65FA46919 /* Pods_OgiData3.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C41D08C201C4F60006D6AD2 /* OgiDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OgiDataManager.swift; sourceTree = "<group>"; };
+		0C41D08E201CB510006D6AD2 /* TableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCellView.swift; sourceTree = "<group>"; };
+		0C41D090201CC377006D6AD2 /* OgiTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OgiTableViewController.swift; sourceTree = "<group>"; };
+		0C4A1BD5203AE8AC0022C333 /* DataViewBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewBase.swift; sourceTree = "<group>"; };
+		0C4A1BD7203AE9A80022C333 /* DateDoubleDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateDoubleDataView.swift; sourceTree = "<group>"; };
+		0C4A1BD9203AEA540022C333 /* DefaultDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultDataView.swift; sourceTree = "<group>"; };
+		0C4A1BDB203FBA850022C333 /* PlotDataViewBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlotDataViewBase.swift; sourceTree = "<group>"; };
 		0C5613141FFE842E006BA722 /* OgiData3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OgiData3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C5613171FFE842E006BA722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C5613191FFE842E006BA722 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0C56131C1FFE842E006BA722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C56131E1FFE842E006BA722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C5613211FFE842E006BA722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C5613231FFE842E006BA722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C5B090521173D3300B8602A /* TaggedImageDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaggedImageDataView.swift; sourceTree = "<group>"; };
+		0C85150C2077B3A900D87243 /* DataViewInsertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewInsertView.swift; sourceTree = "<group>"; };
+		0C85150E207DD0C600D87243 /* InsertFormBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertFormBase.swift; sourceTree = "<group>"; };
+		0C985C2E206D151800053EE4 /* DataViewMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewMenuView.swift; sourceTree = "<group>"; };
+		0C9928FE20A1A0D4007117AB /* TablesMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TablesMenuView.swift; sourceTree = "<group>"; };
+		0C99290020A1BAFC007117AB /* CalendarDataViewBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarDataViewBase.swift; sourceTree = "<group>"; };
+		0CAF19C622D051EA004C9B0A /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		0CB7861720B19F3A0051BDCB /* TGDropBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TGDropBoxView.swift; sourceTree = "<group>"; };
+		0CB7861D20BC1E0C0051BDCB /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		0CB7861E20BC1E0C0051BDCB /* StoredImageListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoredImageListVC.swift; sourceTree = "<group>"; };
+		0CB7862120BC1E0C0051BDCB /* FileHandle+Readline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileHandle+Readline.swift"; sourceTree = "<group>"; };
+		0CB7862220BC1E0C0051BDCB /* UIImage+Trimming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Trimming.swift"; sourceTree = "<group>"; };
+		0CB7862420BC1E0C0051BDCB /* ImageFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFileManager.swift; sourceTree = "<group>"; };
+		0CB7862520BC1E0C0051BDCB /* ImageListFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageListFileManager.swift; sourceTree = "<group>"; };
+		0CB7862620BC1E0C0051BDCB /* ImageViewCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewCreator.swift; sourceTree = "<group>"; };
+		0CB7862720BC1E0C0051BDCB /* PhotoLibraryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLibraryManager.swift; sourceTree = "<group>"; };
+		0CB7862820BC1E0C0051BDCB /* SimpleFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleFileManager.swift; sourceTree = "<group>"; };
+		0CB7862920BC1E0C0051BDCB /* TextFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFileManager.swift; sourceTree = "<group>"; };
+		0CB7863520BC400E0051BDCB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0CB7863720BC49A10051BDCB /* TrimImageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrimImageVC.swift; sourceTree = "<group>"; };
+		0CB7863920BC49D10051BDCB /* TrimImageVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TrimImageVC.storyboard; sourceTree = "<group>"; };
+		0CCD3488214E7B0000A39A88 /* DataViewInsertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewInsertViewController.swift; sourceTree = "<group>"; };
+		0CCD34B0216F905500A39A88 /* DetailDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDataViewController.swift; sourceTree = "<group>"; };
+		0CCD34B421886E8C00A39A88 /* DataViewUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewUpdateViewController.swift; sourceTree = "<group>"; };
+		0CF0B12020A18C29006B01EB /* MenuViewBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewBase.swift; sourceTree = "<group>"; };
+		0ED246EEA6DCD3095DA11598 /* Pods-OgiData3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OgiData3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OgiData3/Pods-OgiData3.debug.xcconfig"; sourceTree = "<group>"; };
+		8B960D7F33AA85BCD00ACA24 /* Pods-OgiData3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OgiData3.release.xcconfig"; path = "Pods/Target Support Files/Pods-OgiData3/Pods-OgiData3.release.xcconfig"; sourceTree = "<group>"; };
+		C53824AD57D01FD65FA46919 /* Pods_OgiData3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OgiData3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6142BFBDEA72ABC0409202 /* Pods_OgiData3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +107,8 @@
 			children = (
 				0C5613161FFE842E006BA722 /* OgiData3 */,
 				0C5613151FFE842E006BA722 /* Products */,
+				7F9AC5CD50B45AB9893A3D21 /* Pods */,
+				EBBD48E86569F9FB32662D3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +123,94 @@
 		0C5613161FFE842E006BA722 /* OgiData3 */ = {
 			isa = PBXGroup;
 			children = (
+				0CB7861B20BC1E0C0051BDCB /* ImageTrimmingClasses */,
 				0C5613171FFE842E006BA722 /* AppDelegate.swift */,
 				0C5613191FFE842E006BA722 /* ViewController.swift */,
-				0C56131B1FFE842E006BA722 /* Main.storyboard */,
+				0C41D08E201CB510006D6AD2 /* TableCellView.swift */,
+				0CF0B12020A18C29006B01EB /* MenuViewBase.swift */,
+				0C9928FE20A1A0D4007117AB /* TablesMenuView.swift */,
+				0C41D090201CC377006D6AD2 /* OgiTableViewController.swift */,
+				0CB7861720B19F3A0051BDCB /* TGDropBoxView.swift */,
+				0C41D08C201C4F60006D6AD2 /* OgiDataManager.swift */,
+				0CAF19C622D051EA004C9B0A /* Config.swift */,
+				0C4A1BD5203AE8AC0022C333 /* DataViewBase.swift */,
+				0C4A1BDB203FBA850022C333 /* PlotDataViewBase.swift */,
+				0C99290020A1BAFC007117AB /* CalendarDataViewBase.swift */,
+				0C4A1BD9203AEA540022C333 /* DefaultDataView.swift */,
+				0C4A1BD7203AE9A80022C333 /* DateDoubleDataView.swift */,
+				0C5B090521173D3300B8602A /* TaggedImageDataView.swift */,
+				0CCD34B0216F905500A39A88 /* DetailDataViewController.swift */,
+				0C985C2E206D151800053EE4 /* DataViewMenuView.swift */,
+				0C85150C2077B3A900D87243 /* DataViewInsertView.swift */,
+				0CCD3488214E7B0000A39A88 /* DataViewInsertViewController.swift */,
+				0CCD34B421886E8C00A39A88 /* DataViewUpdateViewController.swift */,
+				0C85150E207DD0C600D87243 /* InsertFormBase.swift */,
 				0C56131E1FFE842E006BA722 /* Assets.xcassets */,
 				0C5613201FFE842E006BA722 /* LaunchScreen.storyboard */,
 				0C5613231FFE842E006BA722 /* Info.plist */,
 			);
 			path = OgiData3;
+			sourceTree = "<group>";
+		};
+		0CB7861B20BC1E0C0051BDCB /* ImageTrimmingClasses */ = {
+			isa = PBXGroup;
+			children = (
+				0CB7863520BC400E0051BDCB /* Main.storyboard */,
+				0CB7863920BC49D10051BDCB /* TrimImageVC.storyboard */,
+				0CB7861C20BC1E0C0051BDCB /* Controllers */,
+				0CB7862020BC1E0C0051BDCB /* Extensions */,
+				0CB7862320BC1E0C0051BDCB /* Models */,
+			);
+			path = ImageTrimmingClasses;
+			sourceTree = "<group>";
+		};
+		0CB7861C20BC1E0C0051BDCB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0CB7861D20BC1E0C0051BDCB /* HomeVC.swift */,
+				0CB7861E20BC1E0C0051BDCB /* StoredImageListVC.swift */,
+				0CB7863720BC49A10051BDCB /* TrimImageVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0CB7862020BC1E0C0051BDCB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0CB7862120BC1E0C0051BDCB /* FileHandle+Readline.swift */,
+				0CB7862220BC1E0C0051BDCB /* UIImage+Trimming.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0CB7862320BC1E0C0051BDCB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0CB7862420BC1E0C0051BDCB /* ImageFileManager.swift */,
+				0CB7862520BC1E0C0051BDCB /* ImageListFileManager.swift */,
+				0CB7862620BC1E0C0051BDCB /* ImageViewCreator.swift */,
+				0CB7862720BC1E0C0051BDCB /* PhotoLibraryManager.swift */,
+				0CB7862820BC1E0C0051BDCB /* SimpleFileManager.swift */,
+				0CB7862920BC1E0C0051BDCB /* TextFileManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7F9AC5CD50B45AB9893A3D21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ED246EEA6DCD3095DA11598 /* Pods-OgiData3.debug.xcconfig */,
+				8B960D7F33AA85BCD00ACA24 /* Pods-OgiData3.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EBBD48E86569F9FB32662D3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C53824AD57D01FD65FA46919 /* Pods_OgiData3.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C5613261FFE842E006BA722 /* Build configuration list for PBXNativeTarget "OgiData3" */;
 			buildPhases = (
+				B554914179564C7D9E5F9A71 /* [CP] Check Pods Manifest.lock */,
 				0C5613101FFE842E006BA722 /* Sources */,
 				0C5613111FFE842E006BA722 /* Frameworks */,
 				0C5613121FFE842E006BA722 /* Resources */,
+				EEB294EAA4D3633F4A7F98D1 /* [CP] Embed Pods Frameworks */,
+				0AEECBF1321E72C0266504CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,35 +276,106 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CB7863620BC400E0051BDCB /* Main.storyboard in Resources */,
+				0CB7863A20BC49D10051BDCB /* TrimImageVC.storyboard in Resources */,
 				0C5613221FFE842E006BA722 /* LaunchScreen.storyboard in Resources */,
 				0C56131F1FFE842E006BA722 /* Assets.xcassets in Resources */,
-				0C56131D1FFE842E006BA722 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AEECBF1321E72C0266504CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OgiData3/Pods-OgiData3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B554914179564C7D9E5F9A71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEB294EAA4D3633F4A7F98D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OgiData3/Pods-OgiData3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0C5613101FFE842E006BA722 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CB7863820BC49A10051BDCB /* TrimImageVC.swift in Sources */,
+				0C985C2F206D151800053EE4 /* DataViewMenuView.swift in Sources */,
+				0C41D091201CC377006D6AD2 /* OgiTableViewController.swift in Sources */,
+				0CB7861820B19F3A0051BDCB /* TGDropBoxView.swift in Sources */,
+				0CB7863220BC1E0D0051BDCB /* PhotoLibraryManager.swift in Sources */,
+				0C9928FF20A1A0D4007117AB /* TablesMenuView.swift in Sources */,
+				0C85150F207DD0C600D87243 /* InsertFormBase.swift in Sources */,
+				0CB7862A20BC1E0D0051BDCB /* HomeVC.swift in Sources */,
+				0C4A1BD6203AE8AC0022C333 /* DataViewBase.swift in Sources */,
+				0CB7863120BC1E0D0051BDCB /* ImageViewCreator.swift in Sources */,
+				0C4A1BDA203AEA540022C333 /* DefaultDataView.swift in Sources */,
+				0C41D08D201C4F60006D6AD2 /* OgiDataManager.swift in Sources */,
+				0C5B090621173D3300B8602A /* TaggedImageDataView.swift in Sources */,
+				0CCD34B1216F905500A39A88 /* DetailDataViewController.swift in Sources */,
+				0CB7863420BC1E0D0051BDCB /* TextFileManager.swift in Sources */,
+				0C41D08F201CB510006D6AD2 /* TableCellView.swift in Sources */,
 				0C56131A1FFE842E006BA722 /* ViewController.swift in Sources */,
+				0CB7862E20BC1E0D0051BDCB /* UIImage+Trimming.swift in Sources */,
+				0CB7862B20BC1E0D0051BDCB /* StoredImageListVC.swift in Sources */,
+				0CCD34B521886E8C00A39A88 /* DataViewUpdateViewController.swift in Sources */,
+				0CB7863020BC1E0D0051BDCB /* ImageListFileManager.swift in Sources */,
 				0C5613181FFE842E006BA722 /* AppDelegate.swift in Sources */,
+				0C4A1BD8203AE9A80022C333 /* DateDoubleDataView.swift in Sources */,
+				0CCD3489214E7B0000A39A88 /* DataViewInsertViewController.swift in Sources */,
+				0CB7862D20BC1E0D0051BDCB /* FileHandle+Readline.swift in Sources */,
+				0C4A1BDC203FBA850022C333 /* PlotDataViewBase.swift in Sources */,
+				0CF0B12120A18C29006B01EB /* MenuViewBase.swift in Sources */,
+				0C99290120A1BAFC007117AB /* CalendarDataViewBase.swift in Sources */,
+				0CB7863320BC1E0D0051BDCB /* SimpleFileManager.swift in Sources */,
+				0CAF19C722D051EA004C9B0A /* Config.swift in Sources */,
+				0C85150D2077B3A900D87243 /* DataViewInsertView.swift in Sources */,
+				0CB7862F20BC1E0D0051BDCB /* ImageFileManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0C56131B1FFE842E006BA722 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C56131C1FFE842E006BA722 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0C5613201FFE842E006BA722 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -261,6 +484,7 @@
 		};
 		0C5613271FFE842E006BA722 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED246EEA6DCD3095DA11598 /* Pods-OgiData3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TX8NWHCS2C;
@@ -274,6 +498,7 @@
 		};
 		0C5613281FFE842E006BA722 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B960D7F33AA85BCD00ACA24 /* Pods-OgiData3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TX8NWHCS2C;
@@ -304,6 +529,7 @@
 				0C5613281FFE842E006BA722 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
